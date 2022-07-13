@@ -1,0 +1,13 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@nextjs-alias-test-lib/testpkg": "@nextjs-alias-test-lib/testpkg-2"
+        }
+      }
+    ]
+  ]
+}
